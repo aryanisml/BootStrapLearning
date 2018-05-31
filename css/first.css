@@ -1,0 +1,17 @@
+body .success, body .error {
+  border: 1px solid darkblue;
+  color: white; }
+
+body .success .colbg, body .error .colbg {
+  background-color: grey;
+  color: white; }
+
+body {
+  background-color: #eff;
+  font-size: 12px; }
+  body .box {
+    border-radius: 10px; }
+  body .success {
+    background-color: lightblue; }
+  body .error {
+    background-color: red; }

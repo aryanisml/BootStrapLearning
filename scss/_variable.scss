@@ -1,0 +1,16 @@
+$background-color:$color;
+$font-size:12px;
+@mixin b-r($radius){
+    border-radius: $radius;
+}
+
+%message-shared{
+    border:1px solid darkblue;
+    color:white;
+   
+}
+
+%message-div{
+    background-color:grey;
+    color:white;
+}

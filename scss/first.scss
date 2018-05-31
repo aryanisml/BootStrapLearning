@@ -1,0 +1,23 @@
+@import 'color';
+@import 'variable';
+body {
+    background-color: $background-color;
+    font-size: $font-size;
+    .box {
+        @include b-r(10px);
+    }
+    .success{
+        @extend %message-shared;
+        background-color:lightblue;
+        .colbg{
+            @extend %message-div;
+        }
+    }
+    .error{
+        @extend %message-shared;
+        background-color: red;
+        .colbg{
+            @extend %message-div;
+        }
+    }
+}

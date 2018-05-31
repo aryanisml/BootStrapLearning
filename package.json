@@ -1,0 +1,21 @@
+{
+  "name": "scsslearning",
+  "version": "1.0.0",
+  "description": "sass learning",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "node-sass": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "swapnil",
+  "license": "ISC"
+}
